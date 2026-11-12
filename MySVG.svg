@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://w3.org" width="800" height="480" viewBox="0 0 800 480">
   <foreignObject x="0" y="0" width="800" height="480">
     <html xmlns="http://w3.org" lang="en">
@@ -6,20 +6,20 @@
         <base href="https://cdn.jsdelivr.net/gh/web-ports/fnaf-world-refreshed@52b7014293d2da62edae40a0287779e049321f60/" />
         <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-L7856P3VNT"></script>
         <script>
-          <![CDATA[
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-L7856P3VNT');
-          ]]>
+          //<![CDATA[
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-L7856P3VNT');
+          //]]>
         </script>
         <style type="text/css">
-          <![CDATA[
-            h1 { font-family: Arial, Helvetica, sans-serif; color: #F00; font-size: x-large; }
-            p { font-family: Arial, Helvetica, sans-serif; color: #000; font-size: small; }
-            body { background-color: #FFF; text-align: center; margin: 0; padding: 0; }
-            #bloctxt { border-left-width: 5px; border-left-style: solid; border-left-color: #F00; padding-left: 10px; position: absolute; left: 50%; width: 600px; margin-left: -260px; }
-          ]]>
+          /*<![CDATA[*/
+          h1 { font-family: Arial, Helvetica, sans-serif; color: #F00; font-size: x-large; }
+          p { font-family: Arial, Helvetica, sans-serif; color: #000; font-size: small; }
+          body { background-color: #FFF; text-align: center; margin: 0; padding: 0; overflow: hidden; }
+          #bloctxt { border-left-width: 5px; border-left-style: solid; border-left-color: #F00; padding-left: 10px; position: absolute; left: 50%; width: 600px; margin-left: -260px; }
+          /*]]>*/
         </style>
         <script src="src/Runtime.js"></script>
       </head>
@@ -30,12 +30,12 @@
           </canvas>
         </div>
         <script>
-          <![CDATA[
-            window.addEventListener("load", windowLoaded, false);
-            function windowLoaded() {
-              new Runtime("MMFCanvas", "resources/fnaf-world-refreshed.cch");
-            }
-          ]]>
+          //<![CDATA[
+          window.addEventListener("load", windowLoaded, false);
+          function windowLoaded() {
+            new Runtime("MMFCanvas", "resources/fnaf-world-refreshed.cch");
+          }
+          //]]>
         </script>
       </body>
     </html>
